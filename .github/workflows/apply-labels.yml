@@ -1,4 +1,4 @@
-on: [issues, pull_request]
+on: [issues, pull_request_target]
 jobs:
   apply-labels:
     runs-on: ubuntu-latest
