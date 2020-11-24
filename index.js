@@ -1,5 +1,6 @@
 'use strict';
 
+const fs = require('fs');
 const core = require('@actions/core');
 const githubLabelSync = require('github-label-sync');
 const labelsRawdata = fs.readFileSync('labels.json');
