@@ -35,7 +35,7 @@ mkdir -p .github/workflows && curl https://raw.githubusercontent.com/woocommerce
 
 ## Labels
 
-You can find the current labels in [`./labels.JSON`](labels.JSON). Edit this file to make changes to WooCommerce's suite of labels.
+You can find the current labels in [`./labels.json`](labels.json). Edit this file to make changes to WooCommerce's suite of labels.
 
 ### Changing a label name
 
