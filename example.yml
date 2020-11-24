@@ -6,5 +6,6 @@ jobs:
     steps:
       - uses: woocommerce/woo-std-labels@v1
         with:
+          labels-path: ./.github/actions/woocommerce/woo-std-labels/labels.json
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          labels-path: ./labels.json
+
