@@ -7,3 +7,4 @@ jobs:
       - uses: woocommerce/woo-std-labels@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          labels-path: ./labels.json

@@ -1,13 +1,15 @@
 'use strict';
 
-const fs = require('fs');
+const { promises: fs } = require('fs');
 const core = require('@actions/core');
 const githubLabelSync = require('github-label-sync');
-const labelsRawdata = fs.readFileSync('labels.json');
-const labels = JSON.parse(labelsRawdata);
 
 void async function () {
 	try {
+		const labelsFilePath = core.getInput('labels-path');
+		const content = await fs.readFile(labelsFilePath, 'utf8')
+		const labels = JSON.parse(content);
+
 		await githubLabelSync({
 			accessToken: core.getInput('github-token'),
 			repo: process.env.GITHUB_REPOSITORY,
