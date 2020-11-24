@@ -1,15 +1,15 @@
 {
-  "name": "@financial-times/origami-labels",
+  "name": "@woocommerce/woo-std-labels",
   "version": "0.0.0",
-  "description": "GitHub action to sync a repo's issue labels with the standard Origami set",
+  "description": "GitHub action to sync a repo's issue labels with the standard WooCommerce set",
   "keywords": [],
-  "author": "Rowan Manning (https://rowanmanning.com/)",
+  "author": "Rowan Manning (https://rowanmanning.com/), Peter Fabian",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Financial-Times/origami-labels.git"
+    "url": "https://github.com/woocommerce/woo-std-labels.git"
   },
-  "homepage": "https://github.com/Financial-Times/origami-labels",
-  "bugs": "https://github.com/Financial-Times/origami-labels/issues",
+  "homepage": "https://github.com/woocommerce/woo-std-labels",
+  "bugs": "https://github.com/woocommerce/woo-std-labels/issues",
   "license": "MIT",
   "engines": {
     "node": ">=12",
